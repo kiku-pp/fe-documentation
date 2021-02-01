@@ -3481,6 +3481,9 @@
           "logo": "usage_dont_06.svg"
         }]
       },
+      "illustration": {
+
+			},
       "interaction":{
 				"title": "Interaction",
 				"title_principle": "Principle",
