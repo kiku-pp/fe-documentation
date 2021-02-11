@@ -4761,6 +4761,107 @@
 					}
                 ]
 			}       
-    }
+    },
+		"components": {
+			"buttons": {
+				"title": "Buttons",
+				"title_usage": "Usage",
+				"usage_desc": [
+					{
+						"desc": "タップすることでアクションを実行することができます"
+					},
+					{
+						"desc": "アクション可能であることや内包するアクション、ステータスを明示し、タップ後のインタラクションが想定できるようにします"
+					},
+					{
+						"desc": "ボタンは画面内の他のコンテンツと視覚的に差別化をし、目立つように配置する必要があります"
+					}
+				],
+				"subtitle_usage_example": "Usage Example",
+				"title_type": "Type",
+				"type_desc": [
+					{
+						"desc": "状態によりいくつかの種類があり、用途によって使い分けをします"
+					}
+				],
+				"subtitle_action_button": "Action Button",
+				"title_layout": "Layout",
+				"subtitle_layout": "画面内のボタンの優先順位",
+				"layout_desc": [
+					{
+						"desc": "画面内に複数のボタンを配置する場合、ボタンの優先順位を設定し、優先順位に沿ったTypeのボタンを配置します。"
+					},
+					{
+						"desc": "ユーザーがアクションの選択に迷ってしまわないように、優先順位は明確である必要があります。"
+					}
+				],
+				"subtitle_dont": "Do/ Don't",
+				"dont_desc": [
+					{
+						"desc": "画面内のボタンの優先順位が不明瞭になるような使い方は禁止とします。"
+					}
+				],
+				"subtitle_horizontal_button": "Horizontal Button",
+				"horizontal_button_desc": [
+					{
+						"desc": "優先順位や機能が同等の情報を表示する場合は、アクションボタンを横並びに最大2つまで配置することを許容とします。"
+					},
+					{
+						"desc": "3つ以上の選択肢を設ける場合は、ボタンを縦に並べる、または他のUIにしてください。"
+					}
+				],
+				"horizontal_button_desc_1": "ボタンの背景色は、2つのボタンが異なるアクションであると容易に認識できるよう、色差のある2色の利用を推奨します。",
+				"horizontal_button_desc_2": "色は",
+				"horizontal_button_desc_3": "Color pallet",
+				"horizontal_button_desc_4": "の色を参考にしてください。",
+				"lauoyt_subtitle": "2つのボタンの背景色について",
+				"lauoyt_subtitle_desc": "色は",
+				"lauoyt_subtitle_desc_1": "Color pallet",
+				"lauoyt_subtitle_desc_2": "の色を参考に指定してください",
+				"subtitle_sticky_button": "Sticky Button",
+				"sticky_button_desc": [
+					{
+						"desc": "コンテンツ量が多く、縦に長い画面の最下部にアクションボタンを配置する場合、1stviewでボタンを認識できるように、画面下部にボタンを固定するSticky Buttonの使用を推奨します。"
+					},
+					{
+						"desc": "表示コンテンツの上位階層にボタンを配置し、ボタンの周辺には十分な余白を担保します。"
+					},
+					{
+						"desc": "Sticky Buttonの表示エリア外の領域をスクロール領域とします。"
+					}
+				],
+				"subtitle_keyboard_button": "Keyboard Button",
+				"keyboard_button_desc": [
+					{
+						"desc": "ユーザーが入力アクションをする画面では、ボタンをキーボード上部に固定表示します。"
+					},
+					{
+						"desc": "ボタンの上下左右には十分な余白を設け、隣接するコンテンツやキーボードとの誤タップを避けます。"
+					}
+				],
+				"title_detail": "Detail",
+				"detail_dont": [
+					{
+						"desc": "簡潔で短く、すぐにアクションが理解できるテキストを設定してください。"
+					},
+					{
+						"desc": "ボタンのテキストが途中で切れてしまうこと、2行になることは禁止します。"
+					}
+				],
+				"title_interaction": "Interaction",
+				"interaction_desc": [
+					{
+						"desc": "アクション時にタップフィードバックを表示します。"
+					},
+					{
+						"desc": "Specを参照してください。"
+					}
+				],
+				"interaction_desc_1": "参考：",
+				"interaction_desc_2": "Interaction",
+				"title_spec": "Spec",
+				"subtitle_spacing": "Spacing"
+			}
+		}
   }
 }
