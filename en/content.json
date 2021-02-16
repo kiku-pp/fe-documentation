@@ -4978,6 +4978,50 @@
 				"subtitle_spec_card": "Card",
 				"subtitle_expandlist": "Expand List",
 				"subtitle_expandarticle": "Expand Article"
+			},
+			"halfsheets": {
+				"title": "Half Sheets",
+				"title_usage": "Usage",
+				"usage_desc": [
+					{
+						"desc": "ユーザー操作を一時中断させ、アクションを促す、またはエラーなどのお知らせを表示する際に使用します"
+					},
+					{
+						"desc": "ハーフシートはあくまで副次的な情報を表示するものであり、ハーフシート上に主コンテンツを表示することは推奨しません（Mini-Appは除く）"
+					},
+					{
+						"desc": "ハーフシート上には、表示された理由、ユーザーがとるべきアクションをわかりやすく表示します"
+					}
+				],
+				"subtitle_usage_example": "Usage Example",
+				"title_type": "Type",
+				"title_detail": "Detail",
+				"title_interaction": "Interaction",
+				"interaction_desc": "ボタンアクション時にタップフィードバックを表示します。",
+				"interaction_desc_1": "Buttons",
+				"interaction_desc_2": "を参照してください。",
+				"interaction_desc_3": "参考：",
+				"interaction_desc_4": "Interaction",
+				"title_transitions": "Transitions",
+				"title_spec": "Spec"
+			},
+			"label": {
+				"title": "Label",
+				"title_usage": "Usage",
+				"usage_desc": [
+					{
+						"desc": "コンテンツの補足情報やステータスを明示するために利用します"
+					},
+					{
+						"desc": "画面内に複数のステータスラベルを利用する場合は、ステータスの差を明確に色分けをして、視覚的に違いを認識できるようにします"
+					}
+				],
+				"subtitle_usage_example": "Usage Example",
+				"title_type": "Type",
+				"subtitle_do_dont": "Do/ Don't",
+				"do_dont_desc": "タイトルは簡潔に、1行で収まるようにします。",
+				"subtitle_dont": "Don't",
+				"title_spec": "Spec"
 			}
 		}	  
 	}
